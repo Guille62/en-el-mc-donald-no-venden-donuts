@@ -1,0 +1,38 @@
+[
+  {
+    "guid": {
+      "a": "ef9d1bcf-a497-aed6-fd42-3ed5420f1098",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "Mc_Donalds_Sign_bind",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": true,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "6940c34d-e751-5f0f-a8d6-3a4f070ea7d6",
+      "944aa8b4-e43a-505f-17fd-2c9586fc5e34",
+      "4a3ff46d-423e-7361-e2dc-91c8b249438d",
+      "ad79cf10-9f4d-01be-54c0-9bad14f793de",
+      "399d7cc8-562a-9a3f-e703-70eafadfbbc9",
+      "f5b60d71-fdaa-96b3-e17d-e242a49da0ea"
+    ],
+    "meshGUIDs": [
+      "160a6354-0abd-d6ca-eec1-c970d48665c8",
+      "cbea9114-6729-a2e7-944f-d856de86021f",
+      "83422061-f66b-1e94-b75e-f53998dddbb1",
+      "95498071-7c85-2c28-3437-cdf39c1b9b73",
+      "181f9c07-3758-2274-cd9b-71ff516a5eb6",
+      "4a406f4d-b4a9-bd53-aefa-6c8568619bca"
+    ],
+    "animazGUIDs": []
+  }
+]

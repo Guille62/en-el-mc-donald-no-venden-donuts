@@ -1,0 +1,71 @@
+{
+	"name": "Point in Rect",
+	"id": "8c959fd9-9e35-b5e1-510c-8b9aa730977b",
+	"inputs": [
+		{
+			"name": "Enter",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "The input execution that triggers this node",
+			"displayType": "Exec",
+			"nameKey": "graph_point_in_rect_input_enter",
+			"descriptionKey": "graph_point_in_rect_input_enter_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Detect Boundary",
+			"type": "Rect",
+			"item_type": "",
+			"description": "The rectangle",
+			"displayType": "Rect",
+			"nameKey": "graph_point_in_rect_input_detectboundary",
+			"descriptionKey": "graph_point_in_rect_input_detectboundary_description",
+			"displayTypeKey": "graph_type_rect"
+		},
+		{
+			"name": "Detect Point",
+			"type": "Vector2f",
+			"item_type": "",
+			"description": "The position of the point",
+			"displayType": "Vec2",
+			"nameKey": "graph_point_in_rect_input_detectpoint",
+			"descriptionKey": "graph_point_in_rect_input_detectpoint_description",
+			"displayTypeKey": "graph_type_vec2"
+		}
+	],
+	"outputs": [
+		{
+			"name": "True",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node when the point is in the rectangle",
+			"displayType": "Exec",
+			"nameKey": "graph_point_in_rect_output_true",
+			"descriptionKey": "graph_point_in_rect_output_true_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "False",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node when the point is outside the rectangle",
+			"displayType": "Exec",
+			"nameKey": "graph_point_in_rect_output_false",
+			"descriptionKey": "graph_point_in_rect_output_false_description",
+			"displayTypeKey": "graph_type_exec"
+		}
+	],
+	"js": "CGPointInRect.js",
+	"version": "2.0.0",
+	"category": "Utility",
+	"description": "Detect whether or not a point is in a rectangle.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"onlineWebsite": "graph_point_in_rect_website",
+	"nameKey": "graph_point_in_rect_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_point_in_rect_description"
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "d8414fd4-a207-088a-c928-712c265eff06",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Hip Hop Dancing (3)",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

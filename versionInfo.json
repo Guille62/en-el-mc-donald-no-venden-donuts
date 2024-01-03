@@ -1,0 +1,18 @@
+{
+  "version": "3.4.1",
+  "handlers": {
+    "ComponentsCompatibilityHandler": {
+      "Transform": "85bfce2f4ffa628888c59a61f15d5b51",
+      "EffectNode": "d751713988987e9331980363e24189ce",
+      "Camera": "cd9b9dda9fec962a33e3dd34bc6788cc",
+      "DeviceTracker": "809265700734b3bb24a844e6eddcd510",
+      "DirectionalLight": "ef18955537902d318b25333b9e7b53f1",
+      "Animator": "77b4b1ca8bf73744e46f4484d19944c6",
+      "SkinMeshRenderer": "0c788c365c8ef0780f593b167cfa6782",
+      "MeshRenderer": "0ed8ea86d5371c8bbe2ea5908543a838",
+      "PlaneTracker": "0d506a82c5222845371c901aad8ea323",
+      "InteractableObject": "7d370c90e577400258d0f7c1145bdcef",
+      "EnvironmentLighting": "3174ed5b249dee36048cc3acff47d1e7"
+    }
+  }
+}

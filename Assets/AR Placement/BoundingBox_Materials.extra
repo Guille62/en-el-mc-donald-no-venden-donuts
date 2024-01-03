@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "6a01f924-edf1-c768-daf5-fe1be7833551",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "BoundingBox_Materials",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

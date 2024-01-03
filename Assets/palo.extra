@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "1400bb3d-95df-63a6-806f-cfcaa0f8acdd",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "palo",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

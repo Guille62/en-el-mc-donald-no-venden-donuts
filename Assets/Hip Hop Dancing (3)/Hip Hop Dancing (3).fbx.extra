@@ -1,0 +1,30 @@
+[
+  {
+    "guid": {
+      "a": "7262833c-a491-de2e-7c88-aa85a71126d8",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Hip Hop Dancing (3)",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": true,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "5dc925f9-d473-bafe-f6ac-194cf3fbbd05"
+    ],
+    "meshGUIDs": [
+      "da3d7691-1bbd-b55c-1961-1045e710bf15"
+    ],
+    "animazGUIDs": [
+      "311b8cdb-fd71-f6cc-3b6d-62a17e1614b3"
+    ]
+  }
+]

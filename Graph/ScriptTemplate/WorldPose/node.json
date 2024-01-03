@@ -1,0 +1,84 @@
+{
+	"name": "World Transform Info",
+	"id": "2eba42c7-877b-6ef8-baa7-53cb20b806bb",
+	"inputs": [
+		{
+			"name": "Transform",
+			"description": "The Transform component you want to get its world transform information",
+			"type": "Transform",
+			"displayType": "Transform",
+			"nameKey": "graph_world_transform_info_input_transform",
+			"descriptionKey": "graph_world_transform_info_input_transform_description",
+			"displayTypeKey": "graph_type_transform"
+		}
+	],
+	"outputs": [
+		{
+			"name": "World Position",
+			"description": "The world position of the Transform component",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "graph_world_transform_info_output_worldposition",
+			"descriptionKey": "graph_world_transform_info_output_worldposition_description",
+			"displayTypeKey": "graph_type_vec3"
+		},
+		{
+			"name": "World Rotation",
+			"description": "The world rotation of the Transform component",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "graph_world_transform_info_output_worldrotation",
+			"descriptionKey": "graph_world_transform_info_output_worldrotation_description",
+			"displayTypeKey": "graph_type_vec3"
+		},
+		{
+			"name": "World Scale",
+			"description": "The world scale of the Transform component",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "graph_world_transform_info_output_worldscale",
+			"descriptionKey": "graph_world_transform_info_output_worldscale_description",
+			"displayTypeKey": "graph_type_vec3"
+		},
+		{
+			"name": "Up Dir",
+			"description": "The world Y axis direction (green arrow) of the Transform component",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "graph_world_transform_info_output_updir",
+			"descriptionKey": "graph_world_transform_info_output_updir_description",
+			"displayTypeKey": "graph_type_vec3"
+		},
+		{
+			"name": "Right Dir",
+			"description": "The world X axis direction (red arrow) of the Transform component",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "graph_world_transform_info_output_rightdir",
+			"descriptionKey": "graph_world_transform_info_output_rightdir_description",
+			"displayTypeKey": "graph_type_vec3"
+		},
+		{
+			"name": "Forward Dir",
+			"description": "The world Z axis direction (blue arrow) of the Transform component",
+			"type": "Vector3f",
+			"displayType": "Vec3",
+			"nameKey": "graph_world_transform_info_output_forwarddir",
+			"descriptionKey": "graph_world_transform_info_output_forwarddir_description",
+			"displayTypeKey": "graph_type_vec3"
+		}
+	],
+	"js": "CGWorldPose.js",
+	"category": "Transform",
+	"description": "Get the world space position, rotation, and scale of a Transform component.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"version": "1.1.0",
+	"onlineWebsite": "graph_world_transform_info_website",
+	"nameKey": "graph_world_transform_info_name",
+	"categoryKey": "graph_category_transform",
+	"descriptionKey": "graph_world_transform_info_description"
+}

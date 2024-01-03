@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "944a449c-cd37-5e97-25dd-1d00c35cfb11",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Mc_Donalds_Sign_bind",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

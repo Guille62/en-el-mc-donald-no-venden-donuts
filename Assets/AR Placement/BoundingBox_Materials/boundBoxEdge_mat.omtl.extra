@@ -1,0 +1,43 @@
+[
+  {
+    "guid": {
+      "a": "b148974a-24fc-59b3-5822-e1078ecc40f4",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "boundBoxEdge_mat",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(13495170379970976445, 3953595267589391516)",
+    "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_NormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_MRAOTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_EmissiveTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_AmbientTexture",
+        "guid": "00000000-0000-0000-0000-000000000020"
+      }
+    ]
+  }
+]

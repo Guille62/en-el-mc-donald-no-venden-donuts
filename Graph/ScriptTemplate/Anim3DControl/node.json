@@ -1,0 +1,132 @@
+{
+	"name": "3D Animation Controller",
+	"id": "bb90d0ec-e437-3878-fd4f-93447bd646b5",
+	"inputs": [
+		{
+			"name": "Play",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Play the animation",
+			"displayType": "Exec",
+			"nameKey": "graph_3d_animation_controller_input_play",
+			"descriptionKey": "graph_3d_animation_controller_input_play_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Stop",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Stop the animation playback",
+			"displayType": "Exec",
+			"nameKey": "graph_3d_animation_controller_input_stop",
+			"descriptionKey": "graph_3d_animation_controller_input_stop_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Animation",
+			"type": "Animator",
+			"item_type": "",
+			"description": "The animation to be controlled",
+			"displayType": "Animation",
+			"nameKey": "graph_3d_animation_controller_input_animation",
+			"descriptionKey": "graph_3d_animation_controller_input_animation_description",
+			"displayTypeKey": "graph_type_animation"
+		},
+		{
+			"name": "Which Clip",
+			"type": "Int",
+			"item_type": "",
+			"default_value": "0",
+			"description": "The index of the animation. The animation is always played from index 0.",
+			"displayType": "Number",
+			"nameKey": "graph_3d_animation_controller_input_whichclip",
+			"descriptionKey": "graph_3d_animation_controller_input_whichclip_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "Loop Time",
+			"type": "Int",
+			"item_type": "",
+			"default_value": "1",
+			"description": "The number of times of playing the animation. -1 is for infinite loop.",
+			"displayType": "Number",
+			"nameKey": "graph_3d_animation_controller_input_looptime",
+			"descriptionKey": "graph_3d_animation_controller_input_looptime_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "Stop on Last Frame",
+			"type": "Bool",
+			"item_type": "",
+			"default_value": "0",
+			"description": "Whether to stop the animation on its last frame. True is for stop.",
+			"displayType": "Boolean",
+			"nameKey": "graph_3d_animation_controller_input_stoponlastframe",
+			"descriptionKey": "graph_3d_animation_controller_input_stoponlastframe_description",
+			"displayTypeKey": "graph_type_boolean"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Next",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node",
+			"displayType": "Exec",
+			"nameKey": "graph_3d_animation_controller_output_next",
+			"descriptionKey": "graph_3d_animation_controller_output_next_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "On Play",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node when the animation playback starts",
+			"displayType": "Exec",
+			"nameKey": "graph_3d_animation_controller_output_onplay",
+			"descriptionKey": "graph_3d_animation_controller_output_onplay_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "On Stop",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node when the animation playback stops",
+			"displayType": "Exec",
+			"nameKey": "graph_3d_animation_controller_output_onstop",
+			"descriptionKey": "graph_3d_animation_controller_output_onstop_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "On Finish",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node when the animation finishes playing",
+			"displayType": "Exec",
+			"nameKey": "graph_3d_animation_controller_output_onfinish",
+			"descriptionKey": "graph_3d_animation_controller_output_onfinish_description",
+			"displayTypeKey": "graph_type_exec"
+		}
+	],
+	"scriptSupport": "js",
+	"js": "CGAnimatorController.js",
+	"version": "3.0.0",
+	"nodeEvent": [
+		"beforeStart",
+		"onCallBack",
+		"onDestroy",
+		"onUpdate",
+		"onLateUpdate"
+	],
+	"category": "Utility",
+	"description": "Control the 3D animation playback state.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"onlineWebsite": "graph_3d_animation_controller_website",
+	"nameKey": "graph_3d_animation_controller_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_3d_animation_controller_description"
+}

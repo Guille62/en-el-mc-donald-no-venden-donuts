@@ -1,0 +1,50 @@
+{
+	"name": "World to Screen",
+	"id": "3a7ccf47-8b74-a89f-64a2-9f5874985bc1",
+	"inputs": [
+		{
+			"name": "World Pos",
+			"type": "Vector3f",
+			"item_type": "",
+			"description": "The position in world space",
+			"displayType": "Vec3",
+			"nameKey": "graph_world_to_screen_input_worldpos",
+			"descriptionKey": "graph_world_to_screen_input_worldpos_description",
+			"displayTypeKey": "graph_type_vec3"
+		},
+		{
+			"name": "Camera",
+			"type": "Camera",
+			"description": "The camera that provides the output viewport space",
+			"displayType": "Camera",
+			"nameKey": "graph_world_to_screen_input_camera",
+			"descriptionKey": "graph_world_to_screen_input_camera_description",
+			"displayTypeKey": "graph_type_camera"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Screen Pos",
+			"type": "Vector2f",
+			"item_type": "",
+			"description": "The position in the camera viewport space, which is normalized to the camera",
+			"displayType": "Vec2",
+			"nameKey": "graph_world_to_screen_output_screenpos",
+			"descriptionKey": "graph_world_to_screen_output_screenpos_description",
+			"displayTypeKey": "graph_type_vec2"
+		}
+	],
+	"js": "CGWorldToScreen.js",
+	"version": "1.0.2",
+	"category": "Transform",
+	"description": "Transform a position from world space to camera viewport space. The bottom left of the camera viewport is (0,0) and the top right is (1,1). ",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"onlineWebsite": "graph_world_to_screen_website",
+	"nameKey": "graph_world_to_screen_name",
+	"categoryKey": "graph_category_transform",
+	"descriptionKey": "graph_world_to_screen_description"
+}

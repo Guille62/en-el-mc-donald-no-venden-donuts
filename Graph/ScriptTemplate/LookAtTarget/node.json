@@ -1,0 +1,110 @@
+{
+	"name": "Look At",
+	"id": "878866d1-e7bb-24de-68b8-079022d8f99a",
+	"inputs": [
+		{
+			"name": "Enter",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "The input execution that triggers this node",
+			"displayType": "Exec",
+			"nameKey": "graph_look_at_input_enter",
+			"descriptionKey": "graph_look_at_input_enter_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Self",
+			"type": "Transform",
+			"item_type": "",
+			"description": "The start position to look from",
+			"displayType": "Transform",
+			"nameKey": "graph_look_at_input_self",
+			"descriptionKey": "graph_look_at_input_self_description",
+			"displayTypeKey": "graph_type_transform",
+			"noSubClass": true
+		},
+		{
+			"name": "Target",
+			"type": "Vector3f",
+			"item_type": "",
+			"description": "The target position",
+			"displayType": "Vec3",
+			"nameKey": "graph_look_at_input_target",
+			"descriptionKey": "graph_look_at_input_target_description",
+			"displayTypeKey": "graph_type_vec3"
+		},
+		{
+			"name": "Aim Dir",
+			"description": "The direction of Self that aims to the Target. The Z axis of Self is the default value.",
+			"type": "String",
+			"value_list": [
+				"Z",
+				"X",
+				"Y"
+			],
+			"displayType": "String",
+			"nameKey": "graph_look_at_input_aimdir",
+			"descriptionKey": "graph_look_at_input_aimdir_description",
+			"displayTypeKey": "graph_type_string"
+		},
+		{
+			"name": "Up",
+			"description": "The up direction of Self. The Y axis of Self is the default value.",
+			"type": "String",
+			"value_list": [
+				"Y",
+				"Z",
+				"X"
+			],
+			"displayType": "String",
+			"nameKey": "graph_look_at_input_up",
+			"descriptionKey": "graph_look_at_input_up_description",
+			"displayTypeKey": "graph_type_string"
+		},
+		{
+			"name": "Is Local",
+			"description": "Set the rotation result to local transform if it is true otherwise set it to world transform",
+			"type": "Bool",
+			"default_value": true,
+			"displayType": "Boolean",
+			"nameKey": "graph_look_at_input_islocal",
+			"descriptionKey": "graph_look_at_input_islocal_description",
+			"displayTypeKey": "graph_type_boolean"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Next",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node",
+			"displayType": "Exec",
+			"nameKey": "graph_look_at_output_next",
+			"descriptionKey": "graph_look_at_output_next_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Result",
+			"type": "Vector3f",
+			"item_type": "",
+			"description": "The new orientation of Self",
+			"displayType": "Vec3",
+			"nameKey": "graph_look_at_output_result",
+			"descriptionKey": "graph_look_at_output_result_description",
+			"displayTypeKey": "graph_type_vec3"
+		}
+	],
+	"js": "CGLookAtTarget.js",
+	"category": "Transform",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"description": "Get the new orientation of a transform by setting a look-at target position.",
+	"version": "1.0.0",
+	"onlineWebsite": "graph_look_at_website",
+	"nameKey": "graph_look_at_name",
+	"categoryKey": "graph_category_transform",
+	"descriptionKey": "graph_look_at_description"
+}

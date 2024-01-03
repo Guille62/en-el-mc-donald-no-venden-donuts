@@ -1,0 +1,31 @@
+{
+  "projectId": "087d0d56-32ef-5ae7-b76e-02082f1fa757",
+  "isFromTemplate": true,
+  "templateId": "templateID_ARPlacement",
+  "opMap": {
+    "AddEntity": {
+      "count": 15,
+      "seed": "uh8aswzv"
+    },
+    "RemoveEntity": {
+      "count": 10,
+      "seed": "lfzhpyyx"
+    },
+    "PropertyChange": {
+      "count": 36,
+      "seed": "422b62sj"
+    },
+    "RemoveNode": {
+      "count": 9,
+      "seed": "0n7y6il9"
+    },
+    "AddNode": {
+      "count": 15,
+      "seed": "5zp4qtpi"
+    },
+    "PortChange": {
+      "count": 6,
+      "seed": "v9v1f868"
+    }
+  }
+}

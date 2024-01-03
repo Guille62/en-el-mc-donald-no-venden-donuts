@@ -1,0 +1,51 @@
+{
+	"name": "Vertex to Rect",
+	"id": "356cc8f5-4162-f81a-5b6f-3ba91326ed1f",
+	"inputs": [
+		{
+			"name": "Bottom Left",
+			"type": "Vector2f",
+			"item_type": "",
+			"description": "The vertex pixel position of the rectangle's bottom left corner",
+			"displayType": "Vec2",
+			"nameKey": "graph_vertex_to_rect_input_bottomleft",
+			"descriptionKey": "graph_vertex_to_rect_input_bottomleft_description",
+			"displayTypeKey": "graph_type_vec2"
+		},
+		{
+			"name": "Top Right",
+			"type": "Vector2f",
+			"item_type": "",
+			"description": "The vertex pixel position of the rectangle's top right corner",
+			"displayType": "Vec2",
+			"nameKey": "graph_vertex_to_rect_input_topright",
+			"descriptionKey": "graph_vertex_to_rect_input_topright_description",
+			"displayTypeKey": "graph_type_vec2"
+		}
+	],
+	"outputs": [
+		{
+			"name": "New Rect",
+			"type": "Rect",
+			"item_type": "",
+			"description": "The generated rectangle",
+			"displayType": "Rect",
+			"nameKey": "graph_vertex_to_rect_output_newrect",
+			"descriptionKey": "graph_vertex_to_rect_output_newrect_description",
+			"displayTypeKey": "graph_type_rect"
+		}
+	],
+	"js": "CGVertexToRect.js",
+	"version": "3.0.0",
+	"category": "Utility",
+	"description": "Create a rectangle by specifying its 4 corners positions.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"onlineWebsite": "graph_vertex_to_rect_website",
+	"nameKey": "graph_vertex_to_rect_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_vertex_to_rect_description"
+}
